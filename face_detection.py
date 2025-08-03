@@ -6,6 +6,7 @@ def main():
 
     # Open the default webcam
     cap = cv2.VideoCapture(0)
+
     if not cap.isOpened():
         print("No se pudo acceder a la cámara.")
         return
@@ -13,6 +14,7 @@ def main():
     # Ensure a single named window is created once
     window_name = 'Detección de Rostros'
     cv2.namedWindow(window_name)
+
 
     while True:
         ret, frame = cap.read()
@@ -35,6 +37,7 @@ def main():
         # Exit if the window is closed or on pressing 'q'
         if cv2.waitKey(1) & 0xFF == ord('q') or \
            cv2.getWindowProperty(window_name, cv2.WND_PROP_VISIBLE) < 1:
+
             break
 
     # Release the capture and close windows
