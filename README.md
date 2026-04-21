@@ -2,21 +2,29 @@
 
 Repositorio de experimentación con **OpenCV**, orientado a procesamiento de imágenes y visión computacional.
 
-![OpenCV](https://img.shields.io/badge/OpenCV-vision-5C3EE8?logo=opencv)
+![OpenCV](https://img.shields.io/badge/OpenCV-vision-5C3EE8?logo=opencv) ![Python](https://img.shields.io/badge/Python-supported-blue?logo=python)
 
-## Descripción
+---
 
-El proyecto sirve como base para pruebas técnicas relacionadas con análisis visual, detección o manipulación de imágenes.
+## 📌 Objetivo
 
-## Objetivo
+Explorar técnicas de análisis visual, detección o procesamiento de imágenes mediante una base práctica de pruebas.
 
-Explorar el uso práctico de OpenCV en escenarios de laboratorio o aprendizaje aplicado.
+## 🧩 Qué puede incluir
 
-## Uso
+- Carga y transformación de imágenes.
+- Detección de patrones o formas.
+- Pruebas de visión por computador.
+- Scripts experimentales.
 
-Revisa dependencias y scripts del repositorio según el flujo implementado.
+## ▶️ Uso general
 
-## Autor
+```bash
+git clone git@github.com:Carl0gonzalez/testopencv.git
+cd testopencv
+```
+
+## 👤 Autor
 
 **Carlo González**
 
